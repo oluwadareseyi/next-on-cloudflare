@@ -4,10 +4,10 @@ import { collections } from "@/utils/dummyUtils";
 const CollectionsList = () => {
   return (
     <section className="py-8 px-12 flex-1 flex flex-wrap rounded-b-[16px] gap-6 relative bg-white-100 overflow-y-auto">
-      {collections.map((data) => {
+      {collections.map((data, index) => {
         return (
           <CollectionCard
-            key={data?.title}
+            key={index}
             {...data}
             className="basis-[calc(25%-24px)]"
           />

@@ -17,19 +17,19 @@ export const sideNavRoutes = [
     route: routes.CREATE,
     icon: <Create />,
   },
-  {
-    title: "Styles",
-    route: routes.STYLES,
-    icon: <Styles />,
-  },
+  // {
+  //   title: "Styles",
+  //   route: routes.STYLES,
+  //   icon: <Styles />,
+  // },
   {
     title: "Collections",
     route: routes.COLLECTION,
     icon: <Collections />,
   },
-  {
-    title: "History",
-    route: routes.HISTORY,
-    icon: <History />,
-  },
+  // {
+  //   title: "History",
+  //   route: routes.HISTORY,
+  //   icon: <History />,
+  // },
 ];
