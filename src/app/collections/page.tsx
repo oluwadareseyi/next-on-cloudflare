@@ -1,14 +1,10 @@
 export const runtime = "edge";
 
 import Collections from "@/containers/Collections";
-import React, { Suspense } from "react";
+import React from "react";
 
 const page = () => {
-  return (
-    <Suspense>
-      <Collections />
-    </Suspense>
-  );
+  return <Collections />;
 };
 
 export default page;
