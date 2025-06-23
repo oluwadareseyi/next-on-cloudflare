@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import Dashboard from "@/components/features/create/Dashboard";
 import { Suspense } from "react";
 

@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import Collections from "@/containers/Collections";
 import React, { Suspense } from "react";
 
